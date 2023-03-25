@@ -1,5 +1,6 @@
 package com.example.example;
 
+import androidx.activity.result.contract.ActivityResultContract;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.os.Bundle;
@@ -14,17 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button = (Button) findViewById(R.id.button_id);
-        button.setOnClickListener (new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Log.e("Push!!","onCreate");
-                        Intent intent=new Intent(v.getContext(),MainActivity2.class);
-                        startActivity(intent);
+        button.setOnClickListener (
+                button1->Log.i(TAG,"ADD pacient button")
+        );
 
-                }
-
-
-        });
 
     }
 

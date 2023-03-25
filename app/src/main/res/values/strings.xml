@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Example</string>
     <string name="novoselova_julia">Новоселова Юлия</string>
+    <string name="choose_button">Пациенты</string>
+    <string name="user">Васильева И.В.</string>
+    <string name="user2">Петрова И.Д.</string>
+    <string name="user_opi">Пациентка положена в кардиологическое отделение</string>
+    <string name="user_data">Дата поступления:</string>
+    <string name="user_dataid">22.07.2022</string>
 </resources>
