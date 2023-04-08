@@ -61,6 +61,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/failik" />
+    <ListView
+        android:id="@+id/parts_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/big_margin"
+        android:descendantFocusability="beforeDescendants"
+        />
+        android:layout_height=""
     <androidx.fragment.app.FragmentContainerView
         android:id="@id/fragment_container_view"
         android:layout_width="match_parent"
