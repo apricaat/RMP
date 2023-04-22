@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button button = (Button) findViewById(R.id.button_id);
         button.setOnClickListener (
-                button1->Log.i(TAG,"ADD pacient button")
+                button1->Log.i(TAG,"Пациенты")
         );
 
 
